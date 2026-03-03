@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>متجر الملابس</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+  <!-- ===== شريط التنقل ===== -->
+  <nav>
+    <div class="logo" onclick="showProducts()">LUXE</div>
+  </nav>
+
+  <!-- ===== حالات التحميل والخطأ ===== -->
+  <div id="loading" style="display:none;">
+    <div class="spinner"></div>
+    جاري التحميل...
+  </div>
+  <div id="error-msg" style="display:none;"></div>
+
+  <!-- ===== صفحة المنتجات ===== -->
+  <div id="products-page">
+    <div class="hero">
+      <h1>مجموعة <span>الملابس</span></h1>
+      <div class="hero-line"></div>
+      <p id="product-count">تحميل المنتجات...</p>
+    </div>
+
+    <!-- فلتر الفئات -->
+    <div id="filter-bar"></div>
+
+    <!-- شبكة المنتجات -->
+    <div id="products-grid"></div>
+  </div>
+
+  <!-- ===== صفحة التفاصيل ===== -->
+  <div id="detail-page">
+    <button class="back-btn" onclick="showProducts()">
+      ← رجوع للمنتجات
+    </button>
+
+    <div class="detail-grid">
+      <!-- صورة المنتج -->
+      <div class="detail-img-box">
+        <img id="d-img" src="" alt=""/>
+      </div>
+
+      <!-- معلومات المنتج -->
+      <div class="detail-info">
+        <div class="cat"  id="d-cat"></div>
+        <h2 id="d-name"></h2>
+        <div class="stars" id="d-stars"></div>
+        <div class="rating-txt" id="d-rating"></div>
+        <div class="price" id="d-price"></div>
+        <div class="divider"></div>
+        <div class="desc-label">الوصف</div>
+        <p class="desc" id="d-desc"></p>
+        <button class="btn-primary"  onclick="addToCart()">أضف للسلة 🛒</button>
+        <button class="btn-secondary" onclick="addToWishlist()">♡ أضف للمفضلة</button>
+      </div>
+    </div>
+  </div>
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>
