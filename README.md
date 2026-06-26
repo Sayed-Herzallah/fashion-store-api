@@ -1,4 +1,4 @@
-# ðŸ’» Fashion Store API
+# 💻 Fashion Store API
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0f172a&height=160&section=header&text=Fashion%20Store%20API&fontSize=42&fontColor=38bdf8&fontFamily=Outfit" width="100%" />
@@ -10,19 +10,19 @@
 
 ---
 
-## ðŸ“Œ Project Overview (Description)
+## 📌 Project Overview (Description)
 A modular RESTful API backend for a fashion retail store featuring cart operations, order processing, and payment status mockups.
 
 This codebase represents professional software development practices, clean module organization, and efficient code architectures tailored for high responsiveness and scalability.
 
 ---
 
-## âš¡ The Engineering Challenge
+## ⚡ The Engineering Challenge
 
-### ðŸ”´ Problem
+### 🔴 Problem
 Developers building web solutions face difficulties handling state synchronization, styling inconsistencies, and complex configurations that clutter logic and trigger UI slowdowns or connection lifecycle failures.
 
-### ðŸŸ¢ Solution
+### 🟢 Solution
 This project implements:
 * **Separation of Concerns**: Structured module layouts separating design assets from operational logic.
 * **Optimized Rendering**: Efficient script logic and CSS layout variables to maintain lightweight UI paint times.
@@ -30,19 +30,19 @@ This project implements:
 
 ---
 
-## ðŸ§¬ System Architecture
+## 🧬 System Architecture
 The internal layout structures are separated logically:
-`	ext
-Fashion-Store-Api/
-â”œâ”€â”€ css/ or styles/      # Styling engines and layouts
-â”œâ”€â”€ js/ or src/          # Source scripts and business logic
-â”œâ”€â”€ index.html or app.js # Operational entry point
-â””â”€â”€ README.md            # System documentation
-`
+```text
+fashion-store-api/
+├── css/ or styles/      # Styling engines and layouts
+├── js/ or src/          # Source scripts and business logic
+├── index.html or app.js # Operational entry point
+└── README.md            # System documentation
+```
 
 ---
 
-## ðŸ› ï¸ Technology Stack
+## 🛠️ Technology Stack
 
 | Technology | Purpose |
 | :--- | :--- |
@@ -51,39 +51,32 @@ Fashion-Store-Api/
 
 ---
 
-## ðŸš€ Local Developer Setup & Run
+## 🚀 Local Developer Setup & Run
 
-### ðŸ“‹ Prerequisites
+### 📋 Prerequisites
 * Modern web browser / Node.js runtime (depending on project stack)
 
-### âš™ï¸ Quick Start Steps
-`ash
-    git clone https://github.com/Sayed-Herzallah/Fashion-Store-Api.git
-    cd Fashion-Store-Api
+### ⚙️ Quick Start Steps
+```bash
+    git clone https://github.com/Sayed-Herzallah/fashion-store-api.git
+    cd fashion-store-api
     npm install
     npm run dev
-`
-
-### âš™ï¸ Environment Variables
-Create a `.env` file in the root directory:
-```ini
-PORT=3000
-NODE_ENV=development
 ```
 
 ---
 
-## ðŸ”® Future Improvements
+## 🔮 Future Improvements
 * [ ] Integrate automated unit testing.
 * [ ] Add dynamic dark/light theme switcher.
 * [ ] Improve responsiveness on extra-small mobile screen viewports.
 
 ---
 
-## ðŸ‘¥ Contributors
+## 👥 Contributors
 * **Sayed Herzallah** - Lead Developer & Systems Architect
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 Licensed under the **MIT License**.
